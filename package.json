@@ -1,0 +1,24 @@
+{
+  "name": "sls-users-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2",
+    "serverless-dotenv-plugin": "^2.3.2",
+    "serverless-offline": "^6.1.3"
+  },
+  "scripts": {
+    "start": "sls offline start",
+    "lint": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luke Mwila",
+  "license": "ISC"
+}
